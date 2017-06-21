@@ -1,0 +1,29 @@
+.write_blog_form {
+    text-align:center;
+    label {
+        font-family: 'Lora', serif;
+        font-size: 40px;
+        padding-bottom: 20px;
+    }
+
+    input, textarea {
+        border: none;
+        box-shadow: none;
+        border-radius: 0;
+        margin-bottom: 10px;
+        background-color: #F9F9F9;
+    }
+
+    input:focus, textarea:focus {
+        outline: none;
+        -webkit-appearance: none;
+        box-shadow: none;
+        -webkit-box-shadow: none;
+        border-color: black;
+    }
+
+    .input-field {
+        padding-bottom: 20px;
+    }
+
+}

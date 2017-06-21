@@ -1,0 +1,31 @@
+.FooterWrapper {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+}
+
+.Footer {
+  height: 75px;
+  width: 100%;
+  background-color: #525479;
+  position: relative;
+}
+
+.FooterText {
+  color: white;
+  margin-top: 15px;
+  text-align: center;
+}
+
+.TermsPricacyLink {
+  margin: 0 auto;
+  text-align: center;
+  display: block;
+  color: #fbfbfb;
+  margin-top: -8px;
+  cursor: pointer;
+}
+
+.TermsPricacyLink:focus, .TermsPricacyLink:hover {
+  color: #fbfbfb;
+}
